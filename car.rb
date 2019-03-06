@@ -35,9 +35,9 @@ class Car
       # ifの結果を変数に代入する場合は以下の記述でOK
       @speed = if @speed - DOWN_SPEED < 0
                0
-              else
+               else
                 @speed - DOWN_SPEED
-              end
+               end
   end
 
   def self.count
